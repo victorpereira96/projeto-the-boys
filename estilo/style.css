@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Montserrat', cursive;
+}
+
+/*
+Página Principal
+*/
+
+body {
+    background-image: linear-gradient(to right, #0652a3cb, #d30124be);
+    font-family: var(--font-padrao);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px black;
+}
+
+main > img {
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    text-align: center;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px black;
+}
+
+footer {
+    text-align: center;
+    font-family: var(--font-padrao);
+    font-size: 12px;
+}
+
+/*
+A História
+*/
+
+h1 {
+    font-family: var(--font-destaque);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imagem {
+    display: block;
+    text-align: center;
+    width: auto;
+}
+
+.imagem > img {
+    border-radius: 3px;
+    box-shadow: none;
+    margin: 21px;
+}
+
+.video {
+    display: block;
+    text-align: center;
+}
+
+.video > iframe {
+    margin: 14px;
+}
+
+.t3 {
+    display: block;
+    text-align: center;
+    margin: 14px;
+}
+
+.voltar {
+    padding: 20px 0px 5px 5px;
+}
+
+.voltar:visited {
+    color: black;
+}
+
+/*
+The Seven
+*/
+
+.homelander {
+    display: flex;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.texto {
+    margin: 0px 15px;
+    text-align: justify;
+}
+
+.luz {
+    display: flex;
+    margin: 25px 10px;
+}
+
+.paragrafo {
+
+    text-align: justify;
+}
