@@ -59,12 +59,6 @@ h1 {
     text-decoration: underline;
 }
 
-p {
-    text-align: justify;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
 .imagem {
     display: block;
     text-align: center;
@@ -121,6 +115,6 @@ The Seven
 }
 
 .paragrafo {
-
+    margin: 0px 15px;
     text-align: justify;
 }
