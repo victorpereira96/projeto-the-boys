@@ -87,34 +87,56 @@ h1 {
 }
 
 .voltar {
-    padding: 20px 0px 5px 5px;
-}
-
-.voltar:visited {
-    color: black;
+    margin: 25px 10px 5px 10px;
 }
 
 /*
 The Seven
 */
 
-.homelander {
+.d1 {
     display: flex;
-    height: auto;
-    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.sete {
+    flex: 1;
+    text-align: center;
+    width: auto;
+}
+
+.sete > img {
+    margin: 15px;
 }
 
 .texto {
-    margin: 0px 15px;
     text-align: justify;
+    flex: 2;
 }
 
-.luz {
+@media (max-width: 650px) {
+    .d1 {
+        flex-direction: column;
+    }
+}
+
+.d2 {
     display: flex;
-    margin: 25px 10px;
+    flex-wrap: wrap;
 }
 
-.paragrafo {
-    margin: 0px 15px;
-    text-align: justify;
+.sete {
+    flex: 1;
 }
+
+.texto {
+    text-align: justify;
+    flex: 2;
+}
+
+@media (max-width: 650px) {
+    .d2 {
+        flex-direction: column-reverse;
+    }
+}
+
