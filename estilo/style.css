@@ -27,7 +27,7 @@ main {
     box-shadow: 2px 4px 10px black;
 }
 
-main > img {
+.logo {
     box-shadow: none;
     margin-bottom: 20px;
 }
@@ -99,13 +99,13 @@ The Seven
     flex-wrap: wrap;
 }
 
-.sete {
+.foto {
     flex: 1;
     text-align: center;
     width: auto;
 }
 
-.sete > img {
+.foto > img {
     margin: 15px;
 }
 
@@ -125,7 +125,7 @@ The Seven
     flex-wrap: wrap;
 }
 
-.sete {
+.foto {
     flex: 1;
 }
 
